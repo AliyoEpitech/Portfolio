@@ -67,3 +67,18 @@ body {
 .font-codecpro {
   font-family: 'Codecpro', sans-serif;
 }
+
+.slider-wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+
