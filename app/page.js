@@ -35,7 +35,7 @@ export default function Home() {
     <div id="divMere">
       <div id="Masquer">
       <div className="flex items-center relative top-5 ml-5 font-weight">
-      <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png"/>
+      <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png" width={64} height={64}/>
       <p className="m-[6px] font-codecpro text-xl">Portfolio</p>
     </div>
     <div className="flex justify-center items-center mt-40">
@@ -45,7 +45,7 @@ export default function Home() {
     </div>
     <div className=" ml-15 items-center">
     <div className="rounded-full h-80 w-80 custom-shadow overflow-hidden">
-      <Image className="object-cover w-full h-full" src="/photoToile.jpg" alt="Photo de profil"/>
+      <Image className="object-cover w-full h-full" src="/photoToile.jpg" alt="Photo de profil"  width={320} height={320}/>
     </div>
     <p className=" mt-3 text-center animate-typewriter">DEVELOPPEUR WEB - FULL STACK</p>
     </div>
@@ -57,7 +57,7 @@ export default function Home() {
       <div id="Affichage" className="hidden">
         <div className="flex bg-black h-20">
           <div className="flex justify-center items-center">
-          <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png"/>
+          <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png" width={64} height={64}/>
           <p className="m-[6px] font-codecpro text-xl">Portfolio</p>
           </div>
           <div className="ml-45 flex justify-center items-center" id="navFixed">
