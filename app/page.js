@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Head from 'next/head';
 import Image from "next/image";
 
 export default function Home() {
@@ -31,6 +32,15 @@ export default function Home() {
   }, []);
 
   return (
+    <>
+  <Head>
+    <title>Portfolio de Moussa Aliyo - Développeur Web</title>
+    <meta name="description" content="Découvrez les compétences, projets et parcours de Moussa Aliyo, développeur web full stack passionné." />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+  </Head>
+
     <div id="divMere">
       <div id="Masquer">
       <div className="flex items-center relative top-5 ml-5 font-weight">
@@ -317,6 +327,7 @@ export default function Home() {
       </button>
     </div>
   </div>
+  </>
   );
 }
 
