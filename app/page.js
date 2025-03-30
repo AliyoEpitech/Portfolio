@@ -35,7 +35,7 @@ export default function Home() {
     <div id="divMere">
       <div id="Masquer">
       <div className="flex items-center relative top-5 ml-5 font-weight">
-      <img className="h-16 w-16 animate-bounce" src="/ballon.png"/>
+      <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png"/>
       <p className="m-[6px] font-codecpro text-xl">Portfolio</p>
     </div>
     <div className="flex justify-center items-center mt-40">
@@ -45,7 +45,7 @@ export default function Home() {
     </div>
     <div className=" ml-15 items-center">
     <div className="rounded-full h-80 w-80 custom-shadow overflow-hidden">
-      <img className="object-cover w-full h-full" src="/photoToile.jpg" alt="Image"/>
+      <Image className="object-cover w-full h-full" src="/photoToile.jpg" alt="Photo de profil"/>
     </div>
     <p className=" mt-3 text-center animate-typewriter">DEVELOPPEUR WEB - FULL STACK</p>
     </div>
@@ -57,7 +57,7 @@ export default function Home() {
       <div id="Affichage" className="hidden">
         <div className="flex bg-black h-20">
           <div className="flex justify-center items-center">
-          <img className="h-16 w-16 animate-bounce" src="/ballon.png"/>
+          <Image className="h-16 w-16 animate-bounce" alt="ballon de basket-ball" src="/ballon.png"/>
           <p className="m-[6px] font-codecpro text-xl">Portfolio</p>
           </div>
           <div className="ml-45 flex justify-center items-center" id="navFixed">
@@ -74,7 +74,6 @@ export default function Home() {
         <p className="text-center mt-2 text-xl w-270 text-gradient text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 ">
            Ça tombe bien, je suis passionné par le développement ! Laissez-moi vous présenter les compétences que j'ai acquises et mon parcours professionnel.</p>
            <div>
-        <img/>
         </div>
       </div>
     </div>
