@@ -41,7 +41,7 @@ export default function Home() {
     <div className="flex justify-center items-center mt-40">
     <div>
       <h1 className="font-bold text-7xl animate-typewriter">BONJOUR, JE SUIS ALIYO MOUSSA</h1>
-      <p className="text-gradient text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 mt-3 text-xl">Je suis passionné par le développement, le sport, et j'adore me lancer dans de nouveaux projets.</p>
+      <p className="text-gradient text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 mt-3 text-xl">Je suis passionné par le développement, le sport, et j&apos;adore me lancer dans de nouveaux projets.</p>
     </div>
     <div className=" ml-15 items-center">
     <div className="rounded-full h-80 w-80 custom-shadow overflow-hidden">
@@ -72,7 +72,7 @@ export default function Home() {
       <div>
         <h1 className="font-bold text-7xl">Besoin d’un développeur web ?</h1>
         <p className="text-center mt-2 text-xl w-270 text-gradient text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 ">
-           Ça tombe bien, je suis passionné par le développement ! Laissez-moi vous présenter les compétences que j'ai acquises et mon parcours professionnel.</p>
+           Ça tombe bien, je suis passionné par le développement ! Laissez-moi vous présenter les compétences que j&apos;ai acquises et mon parcours professionnel.</p>
            <div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
        <div className="">
         <div className="mt-30 ml-20 bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 h-[330px] w-[900px] rounded-lg p-6 flex items-center">
-          <p className="text-xl font-codecpro text-center font-sans"> Passionné d'informatique depuis plusieurs années, je me suis naturellement orienté vers le développement web. J'aime relever des défis, travailler en équipe et créer des solutions utiles. À travers ce portfolio, je vous présente mon parcours et les projets que j'ai réalisés.</p>
+          <p className="text-xl font-codecpro text-center font-sans"> Passionné d&apos;informatique depuis plusieurs années, je me suis naturellement orienté vers le développement web. J&apos;aime relever des défis, travailler en équipe et créer des solutions utiles. À travers ce portfolio, je vous présente mon parcours et les projets que j&apos;ai réalisés.</p>
         </div>
         <div className="mt-15 mr-35 ml-225 bg-gradient-to-r from-orange-500 via-orange-600 to-red-700 h-[330px] w-[900px] rounded-lg p-6 flex items-center">
           <p className="text-xl font-codecpro text-center font-sans">Actuellement étudiant à Epitech, je me forme au développement full stack (front + back). J’utilise HTML, CSS, JavaScript, React, PHP, SQL… et je suis toujours prêt à apprendre de nouvelles technologies.</p>
@@ -185,7 +185,7 @@ export default function Home() {
     <div className="w-1/2 flex justify-end pr-10">
       <div className="bg-white rounded-xl p-5 w-[300px] shadow-md text-black font-codecpro">
         <h2 className="font-bold">2021 - Bac STMG</h2>
-        <p>Lycée Martinière Duchère - Système d'information & gestion</p>
+        <p>Lycée Martinière Duchère - Système d&apos;information & gestion</p>
       </div>
     </div>
     <div className="w-8 h-8 bg-white rounded-full z-10 border-4 border-black"></div>
